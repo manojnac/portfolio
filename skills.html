@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background: #f8f8f8;
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #9f0afc;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4rem 2rem;
+            background: #5c0294;
+            color: #dfdfdf
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* .hero .typing1,
+        .hero .typing2,
+        .hero .typing3,
+        .hero .typing4,
+        .hero .typing5,
+        .hero .typing6 {
+            border-right: 2px solid #a9a9a9;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            visibility: hidden;
+            animation: typing 4s steps(22, end) forwards, blink 0.75s step-end infinite;
+        } */
+
+        /* .hero .typing1 {
+            animation-delay: 0s;
+            animation-duration: 4s;
+        }
+
+        .hero .typing2 {
+            animation-delay: 4s;
+        }
+
+        .hero .typing3 {
+            animation-delay: 8s;
+        }
+
+        .hero .typing4 {
+            animation-delay: 12s;
+        }
+
+        .hero .typing5 {
+            animation-delay: 16s;
+        }
+
+        .hero .typing6 {
+            animation-delay: 20s;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+                visibility: visible;
+            }
+
+            to {
+                width: 100%;
+                visibility: visible;
+            }
+        }
+
+        @keyframes blink {
+            0%, 100% {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: #a9a9a9;
+            }
+        } */
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero img {
+            max-width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin-top: 1rem;
+            color: #4CAF50;
+        }
+
+        span{
+           margin-left: 20px;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+        
+        <div>
+            <ul>
+                <span><li>UI/UX Design</li>
+                <li>Figma</li>
+                <li>Web Development</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Java</li></span>
+            </ul>
+        </div>
+        <img src="about.jpg" alt="Profile image">
+    </section>
+
+    <section id="about">
+        
+    </section>
+
+    <footer>
+        <p> 2024 | Manojna</p>
+    </footer>
+</body>
+
+</html>
