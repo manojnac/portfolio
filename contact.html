@@ -137,18 +137,25 @@
             background-color: #5c0294;
         }
 
-        .image-container {
-            margin: 0 auto;
-            display: grid;
-            width: 80%;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-            justify-items: center;
-        }
+       .image-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
 
-        .image-container img {
-            max-width: 250px;
-        }
+.image-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 150px;
+    height: auto;
+}
 
 
 
