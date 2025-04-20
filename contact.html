@@ -53,7 +53,6 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            /* Ensures the content is left-aligned */
             padding: 4rem 2rem;
             background: #5c0294;
             color: #dfdfdf;
@@ -62,13 +61,10 @@
         .hero img {
             max-width: 30%;
             margin-right: 2rem;
-            /* Adds some space between the image and the text */
-
         }
 
         .hero div {
             flex-grow: 1;
-            /* Makes the text section take up the remaining space */
         }
 
         .hero ul {
@@ -118,8 +114,6 @@
             font-size: 2em;
         }
 
-        /* New styles for the images section */
-        /* Remove the images from the .hero section */
         .hero {
             display: flex;
             align-items: center;
@@ -138,7 +132,6 @@
             flex-grow: 1;
         }
 
-        /* New styles for the images section */
         #images {
             padding: 1rem;
             background-color: #5c0294;
@@ -149,20 +142,12 @@
             display: grid;
             width: 80%;
             grid-template-columns: repeat(4, 1fr);
-            /* Creates 4 equal columns */
             gap: 1rem;
-            /* Space between the images */
             justify-items: center;
-            /* Centers the images inside each grid item */
         }
 
         .image-container img {
-            /* width: 100%; */
             max-width: 250px;
-            
-            /* Adjust max-width for better control */
-            /* border-radius: 8px; */
-            
         }
 
 
@@ -170,30 +155,22 @@
 
         .image-container .c1 {
             width: 20%;
-            /* Makes images responsive */
             max-width: 250px;
-            /* Adjust max-width for better control */
         }
 
         .image-container .c2 {
             width: 30%;
-            /* Makes images responsive */
             max-width: 250px;
-            /* Adjust max-width for better control */
         }
 
         .image-container .c3 {
             width: 30%;
-            /* Makes images responsive */
             max-width: 250px;
-            /* Adjust max-width for better control */
         }
 
         .image-container .c4 {
             width: 20%;
-            /* Makes images responsive */
             max-width: 250px;
-            /* Adjust max-width for better control */
         }
     </style>
 </head>
@@ -214,14 +191,22 @@
         </div>
     </section>
 
-    <section id="images">
-        <div class="image-container">
-            <img class="c1" src="link.png" alt="Image 1">
-            <img class="c2" src="x.png" alt="Image 2">
-            <img class="c3" src="git.png" alt="Image 3">
-            <img class="c4" src="gm.png" alt="Image 4">
-        </div>
-    </section>
+<section id="images">
+    <div class="image-container">
+        <a href="https://www.linkedin.com/in/mjc04/" target="_blank">
+            <img class="c1" src="link.png" alt="LinkedIn">
+        </a>
+        <a href="https://x.com/mano_jna_c" target="_blank">
+            <img class="c2" src="x.png" alt="Twitter">
+        </a>
+        <a href="https://github.com/manojnac" target="_blank">
+            <img class="c3" src="git.png" alt="GitHub">
+        </a>
+        <a href="mailto:manojnasee@gmail.com">
+            <img class="c4" src="gm.png" alt="Gmail">
+        </a>
+    </div>
+</section>
 
 
 
